@@ -1,4 +1,4 @@
-1480 1566590269953 httpcache-v1
+1480 1568041682804 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+110
@@ -53,7 +53,7 @@ Response:+1280
     }
   ]
 }
-39219 1566590269955 httpcache-v1
+38427 1568041682807 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/loadPageChunk
 Body:+152
@@ -66,7 +66,7 @@ Body:+152
   "pageId": "25a256f9-0ce4-4eb7-8839-0ecc3cf9cd65",
   "verticalColumns": false
 }
-Response:+38978
+Response:+38186
 {
   "cursor": {
     "stack": []
@@ -229,23 +229,14 @@ Response:+38978
         "value": {
           "alive": true,
           "content": [
-            "b9c59c3f-abbd-4b21-8ae7-ffe607839e23",
             "c80c7ddb-ab93-4fc9-a446-7ba3972a065e",
             "0205105c-8d99-4b93-8cca-0d524b87f826",
             "873cf943-4f18-444a-93a6-906395271520",
             "936a36d2-c89a-4455-950a-50b316b75bf0",
-            "d6cda29b-5b5e-4cd5-aab3-9a3ff8e98fba",
-            "c6914de5-dce7-4834-b4bb-6df82ca41192",
-            "c9821170-efd8-4e2e-aefd-0c2af444df05",
-            "71feacc4-ee84-4cbb-84b1-c15552342f6f",
-            "8bdccb53-15e1-4a73-97f8-fe814164c627",
-            "240db294-3475-4d3f-802f-b68a37b4dcae",
-            "2c5625f4-9755-4c61-9ead-bf94ffb1b860",
-            "b84a9ca1-31af-4c18-b575-e01ec996feca",
-            "830dda2d-02b6-4563-bbd7-987bbee536de",
-            "3ea16e69-98ab-4a82-ad32-f9ca3d91bf0c",
-            "1fe3adc2-6408-4fbe-a4a9-f826dd47ba3d",
-            "2300f071-6e30-44b8-9070-4a01b6c8f768",
+            "943386af-738b-4cb8-95a1-33ca59fc0f8d",
+            "5b50e3aa-f495-4d61-94c3-d673cd579cef",
+            "1e55c497-95d8-4815-a6be-d4280742d66c",
+            "0e195bf3-6cc3-4da3-8779-5ab91b99f3da",
             "439794f5-6ff3-4bc4-970e-693f921cd59e",
             "09211065-6852-4338-a84e-d96418480f9b",
             "d5208890-487e-41ab-b01d-a005c7be21be",
@@ -258,14 +249,8 @@ Response:+38978
             "18f28857-10a5-40e1-b54c-d5d8d8ec1c1f",
             "7898c656-81f4-4eb0-8e45-d8c982cc3169",
             "50389922-b936-48b5-849c-9d4cb06195ee",
-            "a8b71720-30ba-4e79-ad1e-eef79bb3187c",
-            "8a359f7f-efb2-4772-bd93-b96bd0bc4dd4",
-            "68879e0e-a8cc-439b-880f-9b6452086363",
-            "ce822589-2fcf-4640-8668-89c7dbf1b2dc",
-            "ffc5e739-39a5-4e9c-b8d1-968ba1243a04",
-            "ff92752d-6cb2-44c5-99ad-2503e1249f4b",
-            "4d0eed59-3eca-467c-9007-db9957be911a",
-            "c4872921-711f-423a-90e6-d851dc665132",
+            "eabd71f4-e2db-4900-8de8-4b912f999dd4",
+            "71a858d0-6f46-4932-9451-11f97444bb46",
             "b62b8e5c-a8c3-4935-9a93-16bf47431333",
             "afc8d4ab-e9b8-4059-b9db-cd106936c3b5",
             "aa3b2048-2c26-4a41-b8d0-529b9a6b6a46",
@@ -274,26 +259,26 @@ Response:+38978
             "7d3d6d78-bc21-432b-9841-7b444899942c",
             "b3545109-70f4-40ad-8139-13b3f0ae9c4b",
             "f22374ba-d55a-4568-b35a-d9bf9a03bc30",
-            "6289c975-aa00-4e68-b8d1-77587ca25e0d",
-            "274fb55d-76fa-485c-b013-b4519efc9a8a",
-            "bf982a5f-0329-44cf-ab8f-1e37ce706a99",
-            "62b57337-05da-40e9-9773-9f2da72c74a2",
+            "d143d631-719c-4b88-ab39-931b83d733b0",
             "951b4753-fcb2-4e65-a12b-b41e3c421350",
             "564db86c-d861-4232-8931-a5b17e96b82d",
             "5e0ca4a9-ac36-403f-9417-862b73b88c53",
             "b1080491-a24e-449e-9853-9dee973ed224",
             "e67fdf19-019f-442a-b25d-fcd5ae01bc6f",
-            "0e027452-8f6f-4b3c-99e1-870b1e4c1fb0"
+            "0e027452-8f6f-4b3c-99e1-870b1e4c1fb0",
+            "b9c59c3f-abbd-4b21-8ae7-ffe607839e23",
+            "7f8f022f-af56-4816-b020-48f289c73e85"
           ],
           "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
           "created_time": 1545562027994,
           "format": {
+            "page_cover_position": 0.5,
             "page_full_width": true,
             "page_small_text": true
           },
           "id": "395f6c6a-f50d-44e4-8919-a45fcc064d3e",
           "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-          "last_edited_time": 1545562981176,
+          "last_edited_time": 1567758540000,
           "parent_id": "0bf7d482-d612-4b90-b02c-a82e410d017b",
           "parent_table": "block",
           "properties": {
@@ -304,7 +289,7 @@ Response:+38978
             ]
           },
           "type": "page",
-          "version": 318
+          "version": 373
         }
       },
       "3daeddb7-7fa9-4271-ba58-6116b66c2490": {
@@ -1023,14 +1008,14 @@ Response:+38978
           "mobile_onboarding_completed": true,
           "onboarding_completed": true,
           "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-          "version": 182
+          "version": 185
         }
       }
     },
     "space": {}
   }
 }
-44700 1566590269956 httpcache-v1
+44700 1568041682809 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+2838
@@ -2402,7 +2387,7 @@ Response:+41770
     }
   ]
 }
-24922 1566590269957 httpcache-v1
+24972 1568041682810 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+1694
@@ -2486,7 +2471,7 @@ Body:+1694
     }
   ]
 }
-Response:+23136
+Response:+23186
 {
   "results": [
     {
@@ -2562,6 +2547,7 @@ Response:+23136
           "b58bc218-3f4a-4d52-8746-2994e6697924",
           "ddcedd29-9e69-418a-a72b-2b5c5559f9bd",
           "3630c5dd-40a5-49e0-b7a4-ca165da575f6",
+          "bc977a00-e3b1-4ad6-84e0-dca3c7fe0770",
           "7894b710-0eb4-44bc-ad09-dca6176b4d0e"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -2572,7 +2558,7 @@ Response:+23136
         },
         "id": "09fcd255-8bc4-45aa-8dc4-80b402e08468",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1546141025505,
+        "last_edited_time": 1567051560000,
         "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
         "parent_table": "block",
         "properties": {
@@ -2583,7 +2569,7 @@ Response:+23136
           ]
         },
         "type": "page",
-        "version": 39
+        "version": 41
       }
     },
     {

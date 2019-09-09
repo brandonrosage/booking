@@ -9,9 +9,8 @@ import (
 )
 
 var (
-	notionBlogsStartPage      = "300db9dc27c84958a08b8d0c37f4cfe5"
-	notionWebsiteStartPage    = "568ac4c064c34ef6a6ad0b8d77230681"
-	notionGoCookbookStartPage = "7495260a1daa46118858ad2e049e77e6"
+	notionBlogsStartPage      = "7c49534c969f413fa4419ec27b3e2f88"
+	notionWebsiteStartPage    = "8aebf0fd1be04078b07e886748a33b81"
 )
 
 // Articles has info about all articles downloaded from notion
@@ -121,7 +120,7 @@ func buildArticlesNavigation(articles *Articles) {
 	isRoot := func(id string) bool {
 		id = notionapi.ToNoDashID(id)
 		switch id {
-		case notionBlogsStartPage, notionWebsiteStartPage, notionGoCookbookStartPage:
+		case notionBlogsStartPage, notionWebsiteStartPage:
 			return true
 		}
 		return false

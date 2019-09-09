@@ -1,4 +1,4 @@
-3165 1566590915014 httpcache-v1
+3165 1568041848090 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+110
@@ -86,7 +86,7 @@ Response:+2965
     }
   ]
 }
-51639 1566590915016 httpcache-v1
+51639 1568041848092 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/loadPageChunk
 Body:+152
@@ -1601,14 +1601,14 @@ Response:+51398
           "mobile_onboarding_completed": true,
           "onboarding_completed": true,
           "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-          "version": 182
+          "version": 185
         }
       }
     },
     "space": {}
   }
 }
-65248 1566590915018 httpcache-v1
+65248 1568041848094 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+6270

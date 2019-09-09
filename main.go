@@ -15,7 +15,7 @@ import (
 )
 
 var (
-	analyticsCode = "UA-194516-1"
+	analyticsCode = "UA-123456-1"
 
 	flgRedownloadNotion bool
 	flgRedownloadPage   string
@@ -132,7 +132,7 @@ func main() {
 	}
 
 	if false {
-		testNotionToHTMLOnePage(d, "dfbefe6906a943d8b554699341e997b0")
+		testNotionToHTMLOnePage(d, "7c49534c969f413fa4419ec27b3e2f88")
 		os.Exit(0)
 	}
 

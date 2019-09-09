@@ -1,0 +1,929 @@
+1354 1568043249601 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+      "table": "block"
+    }
+  ]
+}
+Response:+1154
+{
+  "results": [
+    {
+      "role": "reader",
+      "value": {
+        "alive": true,
+        "collection_id": "40195892-bffe-4872-931b-80700be3ca6a",
+        "created_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+        "created_time": 1566838406065,
+        "format": {
+          "page_cover_position": 0.5
+        },
+        "id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+        "last_edited_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+        "last_edited_time": 1568040120000,
+        "parent_id": "410b9503-da5f-4559-8f42-f785fbf390ee",
+        "parent_table": "space",
+        "permissions": [
+          {
+            "role": "editor",
+            "type": "space_permission"
+          },
+          {
+            "allow_duplicate": false,
+            "role": "reader",
+            "type": "public_permission"
+          }
+        ],
+        "type": "collection_view_page",
+        "version": 116,
+        "view_ids": [
+          "eb9288f4-7c89-49ad-927d-5b3bebd17647",
+          "e04a33e5-c988-45fe-a0a2-968398fe4f33",
+          "6d1042ad-7ec9-4261-b3dc-5c6fc25626e0",
+          "c1df8ba7-36bd-40d2-b6b8-aa8f4bc65fa2"
+        ]
+      }
+    }
+  ]
+}
+25506 1568043249603 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+  "verticalColumns": false
+}
+Response:+25265
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "7c49534c-969f-413f-a441-9ec27b3e2f88": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "collection_id": "40195892-bffe-4872-931b-80700be3ca6a",
+          "created_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "created_time": 1566838406065,
+          "format": {
+            "page_cover_position": 0.5
+          },
+          "id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+          "last_edited_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "last_edited_time": 1568040120000,
+          "parent_id": "410b9503-da5f-4559-8f42-f785fbf390ee",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "space_permission"
+            },
+            {
+              "allow_duplicate": false,
+              "role": "reader",
+              "type": "public_permission"
+            }
+          ],
+          "type": "collection_view_page",
+          "version": 116,
+          "view_ids": [
+            "eb9288f4-7c89-49ad-927d-5b3bebd17647",
+            "e04a33e5-c988-45fe-a0a2-968398fe4f33",
+            "6d1042ad-7ec9-4261-b3dc-5c6fc25626e0",
+            "c1df8ba7-36bd-40d2-b6b8-aa8f4bc65fa2"
+          ]
+        }
+      }
+    },
+    "collection": {
+      "40195892-bffe-4872-931b-80700be3ca6a": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff2dce0a-1b68-45af-9754-179b920fd093/IMG_3858.jpg",
+          "file_ids": [
+            "e99d4cf2-9af4-425b-b1d9-a58314dadfdd",
+            "ff2dce0a-1b68-45af-9754-179b920fd093"
+          ],
+          "format": {
+            "collection_cover_position": 0.7613,
+            "collection_page_properties": [
+              {
+                "property": "|qEx",
+                "visible": false
+              },
+              {
+                "property": "%\u0026rO",
+                "visible": true
+              },
+              {
+                "property": "%GtO",
+                "visible": true
+              },
+              {
+                "property": "@+D[",
+                "visible": false
+              },
+              {
+                "property": ".(mw",
+                "visible": true
+              },
+              {
+                "property": ";Ww]",
+                "visible": true
+              },
+              {
+                "property": ")9b-",
+                "visible": false
+              },
+              {
+                "property": "mup.",
+                "visible": true
+              },
+              {
+                "property": "(,-\u0026",
+                "visible": false
+              },
+              {
+                "property": "ecOy",
+                "visible": false
+              },
+              {
+                "property": ";m_P",
+                "visible": false
+              },
+              {
+                "property": "0D!9",
+                "visible": true
+              },
+              {
+                "property": "OEH3",
+                "visible": true
+              },
+              {
+                "property": ":sB8",
+                "visible": true
+              },
+              {
+                "property": "06Cy",
+                "visible": false
+              },
+              {
+                "property": "H\u003ea3",
+                "visible": true
+              }
+            ]
+          },
+          "icon": "🗓",
+          "id": "40195892-bffe-4872-931b-80700be3ca6a",
+          "name": [
+            [
+              "Gigs"
+            ]
+          ],
+          "parent_id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+          "parent_table": "block",
+          "schema": {
+            "%\u0026rO": {
+              "name": "Instrument needed",
+              "options": [
+                {
+                  "color": "pink",
+                  "id": "431f3f63-d5d6-4c3a-a986-b51757b46c63",
+                  "value": "bass"
+                },
+                {
+                  "color": "gray",
+                  "id": "df152b85-402f-4dfc-aa2d-168e193d9890",
+                  "value": "drums"
+                },
+                {
+                  "color": "green",
+                  "id": "c055057f-114b-4fb1-9268-cc40cb286689",
+                  "value": "pedal steel"
+                },
+                {
+                  "color": "blue",
+                  "id": "727b62df-0eeb-44a1-9b2a-e48c0e9484d4",
+                  "value": "acoustic"
+                }
+              ],
+              "type": "multi_select"
+            },
+            "%GtO": {
+              "name": "Type of gig",
+              "options": [
+                {
+                  "color": "brown",
+                  "id": "29TG",
+                  "value": "Club"
+                },
+                {
+                  "color": "blue",
+                  "id": "b0637ad9-8031-4e77-9d22-57af61482fc4",
+                  "value": "restaurant"
+                },
+                {
+                  "color": "pink",
+                  "id": "45429815-0a32-460d-aaf1-68079522cc73",
+                  "value": "Retire Home"
+                },
+                {
+                  "color": "green",
+                  "id": "644c5e7c-950b-49f8-88cc-e6b0b5e3e5e6",
+                  "value": "solo"
+                },
+                {
+                  "color": "orange",
+                  "id": "24a460ff-f389-46ba-8f57-2fc9016d4ac7",
+                  "value": "duo"
+                },
+                {
+                  "color": "purple",
+                  "id": "7dba85a9-e5f1-4441-9392-3160346c9f3b",
+                  "value": "trio"
+                },
+                {
+                  "color": "yellow",
+                  "id": "bea7e6b4-6a44-4525-bff5-c5d8ed2c5158",
+                  "value": "four piece band"
+                },
+                {
+                  "color": "blue",
+                  "id": "d426db48-b9f8-443e-8cc1-c1494f3b8de2",
+                  "value": "five piece band"
+                }
+              ],
+              "type": "multi_select"
+            },
+            "(,-\u0026": {
+              "name": "Load in",
+              "options": [
+                {
+                  "id": "*Fl3",
+                  "value": "30 mins prior"
+                },
+                {
+                  "color": "default",
+                  "id": "5253a7a1-466c-4fb1-a41c-bc988a33d21d",
+                  "value": "45 mins prio"
+                },
+                {
+                  "color": "purple",
+                  "id": "0a0282cd-39b7-4f9e-8d62-acb8738ff099",
+                  "value": "1hr before"
+                }
+              ],
+              "type": "select"
+            },
+            ")9b-": {
+              "name": "Start Time",
+              "type": "date"
+            },
+            ".(mw": {
+              "collection_id": "0c8fd443-5ed6-41bc-b826-66f712f00a85",
+              "name": "Venue name",
+              "property": "wr`\\",
+              "type": "relation"
+            },
+            "06Cy": {
+              "name": "Dress",
+              "options": [
+                {
+                  "color": "green",
+                  "id": "698b5017-99a1-4200-bfde-7fca72d54074",
+                  "value": "dark jeans or pants cowboy boots western print button-up shirt cowboy hat."
+                },
+                {
+                  "id": "?2h%",
+                  "value": "western print button-up shirt"
+                },
+                {
+                  "id": ")G3S",
+                  "value": "cowboy hat"
+                }
+              ],
+              "type": "select"
+            },
+            "0D!9": {
+              "name": "Parking",
+              "relation_property": ".(mw",
+              "target_property": "VD1j",
+              "target_property_type": "text",
+              "type": "text"
+            },
+            ":sB8": {
+              "name": "Backline",
+              "options": [
+                {
+                  "color": "blue",
+                  "id": "a381350c-f0de-4a7c-be8a-68535092b166",
+                  "value": "bring your own"
+                }
+              ],
+              "relation_property": ".(mw",
+              "target_property": "PHa)",
+              "target_property_type": "text",
+              "type": "select"
+            },
+            ";Ww]": {
+              "name": "Venue address",
+              "relation_property": ".(mw",
+              "target_property": "G:7I",
+              "target_property_type": "text",
+              "type": "rollup"
+            },
+            ";m_P": {
+              "name": "Pay",
+              "type": "text"
+            },
+            "@+D[": {
+              "name": "Status",
+              "options": [
+                {
+                  "color": "pink",
+                  "id": "f380f1a8-1608-4507-a7e3-50032a6a8059",
+                  "value": "Tentative"
+                },
+                {
+                  "color": "yellow",
+                  "id": "3b2b4a1c-c5a0-4d74-9e92-b93f16014152",
+                  "value": "Need musicians"
+                },
+                {
+                  "color": "default",
+                  "id": "38c4ca42-5bb5-46f7-bde4-d1d8fc3bf996",
+                  "value": "Unfinished tasks"
+                },
+                {
+                  "color": "green",
+                  "id": "af08ad91-936e-47a0-aae6-51263b4f5e75",
+                  "value": "Musicians confirmed"
+                },
+                {
+                  "color": "purple",
+                  "id": "bc3bb1c9-21fe-45ce-be46-b9de55b84248",
+                  "value": "Complete"
+                }
+              ],
+              "type": "select"
+            },
+            "H\u003ea3": {
+              "name": "Notes:",
+              "type": "text"
+            },
+            "OEH3": {
+              "name": "PA",
+              "options": [
+                {
+                  "color": "green",
+                  "id": "afe814db-68ea-42c8-9f62-0684cb9cb432",
+                  "value": "I provide"
+                },
+                {
+                  "color": "brown",
+                  "id": "3b95b3f9-2b82-4228-b680-0de116209c4d",
+                  "value": "club provides"
+                }
+              ],
+              "relation_property": ".(mw",
+              "target_property": "p}M}",
+              "target_property_type": "select",
+              "type": "select"
+            },
+            "ecOy": {
+              "name": "Set breaks",
+              "options": [
+                {
+                  "id": ")8am",
+                  "value": "2"
+                },
+                {
+                  "id": "8$6Y",
+                  "value": "1"
+                },
+                {
+                  "color": "green",
+                  "id": "597e21ca-b90c-43d0-b659-022c0735adaf",
+                  "value": "none"
+                }
+              ],
+              "type": "select"
+            },
+            "mup.": {
+              "name": "End Time",
+              "type": "date"
+            },
+            "title": {
+              "name": "Name",
+              "type": "title"
+            },
+            "|qEx": {
+              "collection_id": "bc2d8a9c-e732-4462-90e7-a95a92cb9d09",
+              "name": "Musicians",
+              "property": "[b9%",
+              "type": "relation"
+            }
+          },
+          "template_pages": [
+            "44033ab6-8d56-463e-a8cb-746126ba072c"
+          ],
+          "version": 192
+        }
+      }
+    },
+    "collection_view": {
+      "6d1042ad-7ec9-4261-b3dc-5c6fc25626e0": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "format": {
+            "list_properties": [
+              {
+                "property": ".(mw",
+                "visible": true
+              },
+              {
+                "property": ")9b-",
+                "visible": true
+              },
+              {
+                "property": "@+D[",
+                "visible": true
+              },
+              {
+                "property": "(,-\u0026",
+                "visible": false
+              },
+              {
+                "property": "06Cy",
+                "visible": false
+              },
+              {
+                "property": "|qEx",
+                "visible": false
+              },
+              {
+                "property": ";m_P",
+                "visible": false
+              },
+              {
+                "property": "ecOy",
+                "visible": false
+              },
+              {
+                "property": ":sB8",
+                "visible": false
+              },
+              {
+                "property": "mup.",
+                "visible": false
+              },
+              {
+                "property": "HVQf",
+                "visible": false
+              },
+              {
+                "property": "OEH3",
+                "visible": false
+              },
+              {
+                "property": "0D!9",
+                "visible": false
+              },
+              {
+                "property": "%GtO",
+                "visible": false
+              },
+              {
+                "property": ";Ww]",
+                "visible": false
+              }
+            ]
+          },
+          "id": "6d1042ad-7ec9-4261-b3dc-5c6fc25626e0",
+          "name": "List",
+          "page_sort": [
+            "787045bc-17b4-4ac1-b3c7-ed3997dfcaf7",
+            "a0e0f3e1-d1e0-4e20-bc13-c58cf40e7208",
+            "12a0cf41-338e-4d00-bef7-4316fdd55971",
+            "e0f7cbe6-dace-4256-8921-4a9441c43c2f",
+            "54c25f2f-0502-4747-9e65-e65bfcfa594f",
+            "d751c9e3-6cca-4d6f-8595-3e12255cf200",
+            "88bd43ea-f9a7-44c0-9522-0fdd8bc01a7d",
+            "0ef9e403-10f0-45ce-989b-494e6f7b7ee1",
+            "45f5e2aa-04a8-4472-ae3a-62cb7fb09ebe",
+            "83d21f00-b845-42d9-8ab5-2ccc32ba8646",
+            "a9243990-b8af-4d8d-b520-760491ecdb15",
+            "392ade7e-36b8-4883-86d1-e09712951df5",
+            "64dfdea8-88df-4639-a23a-f0742b42ea43",
+            "9252d6dd-7e73-4397-b5a2-8e8cb9499025",
+            "d4dfa691-1092-4c3d-b407-0e7d10f41cdc",
+            "dd7079be-be18-4757-8808-21e36d38ab62",
+            "a8cef2a8-0d71-459a-a770-57948f31236f"
+          ],
+          "parent_id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+          "parent_table": "block",
+          "query": {
+            "filter": [
+              {
+                "comparator": "date_is_on_or_after",
+                "id": "b92b0211-308a-4759-9f26-32085fd67d1c",
+                "property": ")9b-",
+                "type": "date",
+                "value_type": "today"
+              }
+            ],
+            "filter_operator": "and",
+            "sort": [
+              {
+                "direction": "ascending",
+                "id": "95cfa447-a751-4aa5-bad0-f92498e23cb8",
+                "property": ")9b-",
+                "type": "date"
+              }
+            ]
+          },
+          "type": "list",
+          "version": 53
+        }
+      },
+      "c1df8ba7-36bd-40d2-b6b8-aa8f4bc65fa2": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "format": {
+            "table_properties": [
+              {
+                "property": "title",
+                "visible": true,
+                "width": 280
+              },
+              {
+                "property": ".(mw",
+                "visible": true,
+                "width": 200
+              },
+              {
+                "property": ")9b-",
+                "visible": true,
+                "width": 200
+              },
+              {
+                "property": "(,-\u0026",
+                "visible": true,
+                "width": 200
+              },
+              {
+                "property": "|qEx",
+                "visible": true,
+                "width": 200
+              },
+              {
+                "property": ")fKN",
+                "visible": true,
+                "width": 200
+              },
+              {
+                "property": "ecOy",
+                "visible": true,
+                "width": 106
+              },
+              {
+                "property": ";m_P",
+                "visible": true,
+                "width": 100
+              },
+              {
+                "property": "06Cy",
+                "visible": true,
+                "width": 162
+              },
+              {
+                "property": "}Pb9",
+                "visible": true,
+                "width": 200
+              }
+            ]
+          },
+          "id": "c1df8ba7-36bd-40d2-b6b8-aa8f4bc65fa2",
+          "name": "Table",
+          "page_sort": [
+            "c12cd659-1962-4d01-b3e9-eddbafe11c4f",
+            "1925e053-c1f3-4457-957b-82f2f716c8db",
+            "91e30a14-a4fc-471b-a36e-f20b18b61aab"
+          ],
+          "parent_id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+          "parent_table": "block",
+          "query": {
+            "aggregate": [
+              {
+                "aggregation_type": "count",
+                "id": "count",
+                "property": "title",
+                "type": "title",
+                "view_type": "table"
+              }
+            ]
+          },
+          "type": "table",
+          "version": 25
+        }
+      },
+      "e04a33e5-c988-45fe-a0a2-968398fe4f33": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "format": {
+            "board_cover_size": "medium",
+            "board_groups": [
+              {
+                "hidden": false,
+                "property": "@+D[",
+                "type": "select",
+                "value": "Need musicians"
+              },
+              {
+                "hidden": false,
+                "property": "@+D[",
+                "type": "select",
+                "value": "Unfinished tasks"
+              },
+              {
+                "hidden": false,
+                "property": "@+D[",
+                "type": "select",
+                "value": "Tentative"
+              },
+              {
+                "hidden": false,
+                "property": "@+D[",
+                "type": "select"
+              },
+              {
+                "hidden": false,
+                "property": "@+D[",
+                "type": "select",
+                "value": "Musicians confirmed"
+              },
+              {
+                "hidden": false,
+                "property": "@+D[",
+                "type": "select",
+                "value": "Complete"
+              }
+            ],
+            "board_properties": [
+              {
+                "property": ".(mw",
+                "visible": true
+              },
+              {
+                "property": "%GtO",
+                "visible": true
+              },
+              {
+                "property": ")9b-",
+                "visible": true
+              },
+              {
+                "property": "mup.",
+                "visible": true
+              },
+              {
+                "property": "|qEx",
+                "visible": false
+              },
+              {
+                "property": "06Cy",
+                "visible": false
+              },
+              {
+                "property": "(,-\u0026",
+                "visible": false
+              },
+              {
+                "property": ";m_P",
+                "visible": false
+              },
+              {
+                "property": "ecOy",
+                "visible": false
+              },
+              {
+                "property": "@+D[",
+                "visible": false
+              },
+              {
+                "property": ":sB8",
+                "visible": false
+              },
+              {
+                "property": "HVQf",
+                "visible": false
+              },
+              {
+                "property": "OEH3",
+                "visible": false
+              },
+              {
+                "property": "0D!9",
+                "visible": false
+              },
+              {
+                "property": ";Ww]",
+                "visible": false
+              }
+            ],
+            "list_properties": [
+              {
+                "property": ")9b-",
+                "visible": true
+              },
+              {
+                "property": "|qEx",
+                "visible": true
+              },
+              {
+                "property": "06Cy",
+                "visible": false
+              },
+              {
+                "property": "(,-\u0026",
+                "visible": false
+              },
+              {
+                "property": ";m_P",
+                "visible": false
+              },
+              {
+                "property": "ecOy",
+                "visible": false
+              },
+              {
+                "property": ".(mw",
+                "visible": true
+              }
+            ]
+          },
+          "id": "e04a33e5-c988-45fe-a0a2-968398fe4f33",
+          "name": "Status",
+          "page_sort": [
+            "e2eb16a6-b43a-4540-b963-3ad227ca1e67",
+            "88bd43ea-f9a7-44c0-9522-0fdd8bc01a7d",
+            "0ef9e403-10f0-45ce-989b-494e6f7b7ee1",
+            "e0f7cbe6-dace-4256-8921-4a9441c43c2f",
+            "787045bc-17b4-4ac1-b3c7-ed3997dfcaf7",
+            "15407bac-0261-487f-99b9-8b3162649c0f",
+            "91e30a14-a4fc-471b-a36e-f20b18b61aab"
+          ],
+          "parent_id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+          "parent_table": "block",
+          "query": {
+            "aggregate": [
+              {
+                "aggregation_type": "count",
+                "id": "count",
+                "view_type": "board"
+              }
+            ],
+            "filter": [
+              {
+                "comparator": "date_is_on_or_after",
+                "id": "14f09361-dec7-4149-a36f-155c0756f75d",
+                "property": ")9b-",
+                "type": "date",
+                "value_type": "today"
+              }
+            ],
+            "filter_operator": "and",
+            "group_by": "@+D[",
+            "sort": [
+              {
+                "direction": "ascending",
+                "id": "0c0f1590-c774-461c-a327-5506773e4637",
+                "property": ")9b-",
+                "type": "date"
+              }
+            ]
+          },
+          "type": "board",
+          "version": 61
+        }
+      },
+      "eb9288f4-7c89-49ad-927d-5b3bebd17647": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "format": {
+            "calendar_properties": [
+              {
+                "property": ".(mw",
+                "visible": true
+              },
+              {
+                "property": "%GtO",
+                "visible": true
+              },
+              {
+                "property": "@+D[",
+                "visible": true
+              },
+              {
+                "property": ")9b-",
+                "visible": true
+              },
+              {
+                "property": "06Cy",
+                "visible": false
+              },
+              {
+                "property": "(,-\u0026",
+                "visible": false
+              },
+              {
+                "property": "|qEx",
+                "visible": false
+              },
+              {
+                "property": ";m_P",
+                "visible": false
+              },
+              {
+                "property": "ecOy",
+                "visible": false
+              },
+              {
+                "property": ":sB8",
+                "visible": false
+              },
+              {
+                "property": "HVQf",
+                "visible": false
+              },
+              {
+                "property": "OEH3",
+                "visible": false
+              },
+              {
+                "property": "0D!9",
+                "visible": false
+              },
+              {
+                "property": ";Ww]",
+                "visible": false
+              },
+              {
+                "property": "mup.",
+                "visible": false
+              }
+            ]
+          },
+          "id": "eb9288f4-7c89-49ad-927d-5b3bebd17647",
+          "name": "Calendar",
+          "page_sort": [
+            "a0e0f3e1-d1e0-4e20-bc13-c58cf40e7208",
+            "1f60ed75-f11e-4370-bca2-4077d353a06d"
+          ],
+          "parent_id": "7c49534c-969f-413f-a441-9ec27b3e2f88",
+          "parent_table": "block",
+          "query": {
+            "calendar_by": ")9b-",
+            "filter_operator": "and"
+          },
+          "type": "calendar",
+          "version": 23
+        }
+      }
+    },
+    "notion_user": {
+      "133f1b57-221d-4bf5-89f4-8d68b2ece8d2": {
+        "role": "reader",
+        "value": {
+          "email": "brandon.rosage@gmail.com",
+          "family_name": "Rosage",
+          "given_name": "Brandon",
+          "id": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://lh3.googleusercontent.com/a-/AAuE7mDwSeVMpeh_zPEheD6MbawXVbuHidtbAIb86a-kiA=s100",
+          "version": 6
+        }
+      }
+    },
+    "space": {}
+  }
+}

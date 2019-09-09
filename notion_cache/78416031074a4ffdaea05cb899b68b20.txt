@@ -1,4 +1,4 @@
-1342 1566590832271 httpcache-v1
+1342 1568041715441 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+110
@@ -50,7 +50,7 @@ Response:+1142
     }
   ]
 }
-15660 1566590832272 httpcache-v1
+15660 1568041715442 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/loadPageChunk
 Body:+152
@@ -484,14 +484,14 @@ Response:+15419
           "mobile_onboarding_completed": true,
           "onboarding_completed": true,
           "profile_photo": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/2dcaa66c-7674-4ff6-9924-601785b63561/head-bw-640x960.png",
-          "version": 182
+          "version": 185
         }
       }
     },
     "space": {}
   }
 }
-73148 1566590832274 httpcache-v1
+73148 1568041715444 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+5302
@@ -2825,7 +2825,7 @@ Response:+67754
     }
   ]
 }
-25720 1566590832275 httpcache-v1
+25770 1568041715445 httpcache-v1
 Method: POST
 URL: https://www.notion.so/api/v3/getRecordValues
 Body:+1782
@@ -2913,7 +2913,7 @@ Body:+1782
     }
   ]
 }
-Response:+23846
+Response:+23896
 {
   "results": [
     {
@@ -2989,6 +2989,7 @@ Response:+23846
           "b58bc218-3f4a-4d52-8746-2994e6697924",
           "ddcedd29-9e69-418a-a72b-2b5c5559f9bd",
           "3630c5dd-40a5-49e0-b7a4-ca165da575f6",
+          "bc977a00-e3b1-4ad6-84e0-dca3c7fe0770",
           "7894b710-0eb4-44bc-ad09-dca6176b4d0e"
         ],
         "created_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
@@ -2999,7 +3000,7 @@ Response:+23846
         },
         "id": "09fcd255-8bc4-45aa-8dc4-80b402e08468",
         "last_edited_by": "bb760e2d-d679-4b64-b2a9-03005b21870a",
-        "last_edited_time": 1546141025505,
+        "last_edited_time": 1567051560000,
         "parent_id": "fa41cc44-c715-40f3-aafe-fdaff617ef7a",
         "parent_table": "block",
         "properties": {
@@ -3010,7 +3011,7 @@ Response:+23846
           ]
         },
         "type": "page",
-        "version": 39
+        "version": 41
       }
     },
     {

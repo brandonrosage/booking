@@ -1,0 +1,156 @@
+1169 1568043565577 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/getRecordValues
+Body:+110
+{
+  "requests": [
+    {
+      "id": "8aebf0fd-1be0-4078-b07e-886748a33b81",
+      "table": "block"
+    }
+  ]
+}
+Response:+970
+{
+  "results": [
+    {
+      "role": "reader",
+      "value": {
+        "alive": true,
+        "content": [
+          "6cb7c765-9fd7-4fac-87e7-364bce8f38b5"
+        ],
+        "created_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+        "created_time": 1568043480000,
+        "id": "8aebf0fd-1be0-4078-b07e-886748a33b81",
+        "last_edited_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+        "last_edited_time": 1568043540000,
+        "parent_id": "410b9503-da5f-4559-8f42-f785fbf390ee",
+        "parent_table": "space",
+        "permissions": [
+          {
+            "role": "editor",
+            "type": "space_permission"
+          },
+          {
+            "allow_duplicate": false,
+            "role": "reader",
+            "type": "public_permission"
+          }
+        ],
+        "properties": {
+          "title": [
+            [
+              "Home"
+            ]
+          ]
+        },
+        "type": "page",
+        "version": 14
+      }
+    }
+  ]
+}
+2855 1568043565577 httpcache-v1
+Method: POST
+URL: https://www.notion.so/api/v3/loadPageChunk
+Body:+152
+{
+  "chunkNumber": 0,
+  "cursor": {
+    "stack": []
+  },
+  "limit": 50,
+  "pageId": "8aebf0fd-1be0-4078-b07e-886748a33b81",
+  "verticalColumns": false
+}
+Response:+2615
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "block": {
+      "6cb7c765-9fd7-4fac-87e7-364bce8f38b5": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "created_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "created_time": 1568043480000,
+          "id": "6cb7c765-9fd7-4fac-87e7-364bce8f38b5",
+          "last_edited_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "last_edited_time": 1568043540000,
+          "parent_id": "8aebf0fd-1be0-4078-b07e-886748a33b81",
+          "parent_table": "block",
+          "properties": {
+            "title": [
+              [
+                "Gigs",
+                [
+                  [
+                    "a",
+                    "https://www.notion.so/johnnymcgowan/7c49534c969f413fa4419ec27b3e2f88?v=eb9288f47c8949ad927d5b3bebd17647"
+                  ]
+                ]
+              ]
+            ]
+          },
+          "type": "text",
+          "version": 9
+        }
+      },
+      "8aebf0fd-1be0-4078-b07e-886748a33b81": {
+        "role": "reader",
+        "value": {
+          "alive": true,
+          "content": [
+            "6cb7c765-9fd7-4fac-87e7-364bce8f38b5"
+          ],
+          "created_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "created_time": 1568043480000,
+          "id": "8aebf0fd-1be0-4078-b07e-886748a33b81",
+          "last_edited_by": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "last_edited_time": 1568043540000,
+          "parent_id": "410b9503-da5f-4559-8f42-f785fbf390ee",
+          "parent_table": "space",
+          "permissions": [
+            {
+              "role": "editor",
+              "type": "space_permission"
+            },
+            {
+              "allow_duplicate": false,
+              "role": "reader",
+              "type": "public_permission"
+            }
+          ],
+          "properties": {
+            "title": [
+              [
+                "Home"
+              ]
+            ]
+          },
+          "type": "page",
+          "version": 14
+        }
+      }
+    },
+    "notion_user": {
+      "133f1b57-221d-4bf5-89f4-8d68b2ece8d2": {
+        "role": "reader",
+        "value": {
+          "email": "brandon.rosage@gmail.com",
+          "family_name": "Rosage",
+          "given_name": "Brandon",
+          "id": "133f1b57-221d-4bf5-89f4-8d68b2ece8d2",
+          "mobile_onboarding_completed": true,
+          "onboarding_completed": true,
+          "profile_photo": "https://lh3.googleusercontent.com/a-/AAuE7mDwSeVMpeh_zPEheD6MbawXVbuHidtbAIb86a-kiA=s100",
+          "version": 6
+        }
+      }
+    },
+    "space": {}
+  }
+}
